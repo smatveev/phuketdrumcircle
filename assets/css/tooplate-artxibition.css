@@ -764,6 +764,11 @@ Amazing Venues
   margin-bottom: 6px;
 }
 
+.map-image {
+  width: 100%;
+  display: flex;
+}
+
 .map-image img {
   width: 100%;
   overflow: hidden;
@@ -1007,8 +1012,10 @@ Footer
 */
 
 footer {
-  padding-top: 60px;
-  margin-bottom: 25px;
+  /* padding-top: 60px;
+  margin-bottom: 25px; */
+  padding-top: 40px;
+  margin-bottom: 40px;
 }
 
 footer h4 {
