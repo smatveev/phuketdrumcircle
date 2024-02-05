@@ -178,7 +178,9 @@ body {
   color: #fff;
 }
 
-.main-white-button a {
+.main-white-button a, .main-white-button button {  
+  all: unset;
+  cursor: pointer !important;
   display: inline-block;
   font-size: 14px;
   padding: 12px 18px;
@@ -2542,4 +2544,8 @@ responsive
   100% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px); } 
+}
+
+.hur54b {
+  padding: 10px !important;
 }
